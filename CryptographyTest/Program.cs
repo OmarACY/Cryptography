@@ -10,7 +10,7 @@ namespace CryptographyTest
     {
         static void Main(string[] args)
         {
-            var textToCipher = "Texto para cifrado";
+            var textToCipher = "Texto para cifrado build";
             Console.WriteLine($"Texto a cifrar {textToCipher}");
             var textCipher = CryptographyService.Cipher(textToCipher);
             Console.WriteLine($"Texto cifrado {textCipher}");
